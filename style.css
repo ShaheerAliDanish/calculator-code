@@ -1,0 +1,38 @@
+.calculator{
+    width: 310px;
+    margin: 20px auto;
+    padding: px;
+    
+    border-radius: 5px;
+    background-color: rgb(172, 207, 240);
+}
+.dis{
+    padding: 10px 0 ;
+    align-items: center;
+}
+.dis input{
+    width: 90%;
+    text-align: right;
+    outline: none;
+    background-color: lightgray;
+    border: none;
+    height: 40px;
+    font-size: 1.2rem;
+}
+.btnparent{
+    text-align: center;
+}
+.btnparent button{
+ width: 50px;
+ height: 50px;
+ background-color: black;
+ color: white   ;
+ border: none;
+ border-radius: 5px;
+ margin: 5px;
+font-size: 2rem;
+}
+.btnparent button:hover{
+    background-color: forestgreen;
+    color: wheat;
+}
